@@ -35,10 +35,10 @@ const BusinessRegister = () => {
     }
 
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
     const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-    const userid = userInfo.user.id;
+//    const userid = userInfo.user.id;
 
     const onSubmit = (values, props) => {
         const business = {
@@ -55,7 +55,7 @@ const BusinessRegister = () => {
         console.log(business)
 
 
-        axios.post(`http://localhost:8088/vendor/register/${userid}`, business)
+        axios.post(`http://localhost:8088/vendor/register/8`, business)
             .then((response) => {
                 var res = response.status;
                 console.log(response.data)
@@ -300,8 +300,8 @@ const BusinessRegister = () => {
                                                 </Fragment>
                                             }
                                         />
-                                        <UploadGstCertificate imgdialog={imgdialog}
-                                          setImgdialog={setImgdialog} />
+                                        {/*<UploadGstCertificate imgdialog={imgdialog}
+                                          setImgdialog={setImgdialog} />*/}
 
                                         <br></br>
                                     </Grid>

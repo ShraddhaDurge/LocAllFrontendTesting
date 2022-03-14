@@ -19,9 +19,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 import MostPopularProducts from "./MostPopularProducts";
 import ProductCategories from "./ProductCategories";
 import RecommendedProducts from "./RecommendedProducts";
-import { ThemeProvider,createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider,createTheme } from '@material-ui/core/styles';
 
-const theme = createMuiTheme({
+const theme = createTheme({
  typography: {
    fontFamily: ['"Montserrat"', 'Open Sans','Chilanka','cursive'].join(',')
   }
@@ -29,18 +29,18 @@ const theme = createMuiTheme({
 
 const CustomerHome=()=>{
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
      const handleLogout = () => {
-      navigate('/', {replace: true})
+//      navigate('/', {replace: true})
      };
 
       const customerProfile = () => {
-         navigate('/customerProfile', {replace: true})
+//         navigate('/customerProfile', {replace: true})
       };
       const productDescription = product => e =>  {
        localStorage.setItem("productInfo", JSON.stringify(product));
-       navigate('/productDescription', {replace: true})
+//       navigate('/productDescription', {replace: true})
     };
     const handleShopNow = () => {
             var elmntToView = document.getElementById("shop");
@@ -82,7 +82,7 @@ const CustomerHome=()=>{
 
         <Grid style={{overflowX:'hidden'}}>
 
-        <Homebar />
+       {/* <Homebar /> */}
          <ThemeProvider theme={theme}>
             <Paper style={{ backgroundColor:"#81D4FA"}}>
 
@@ -103,11 +103,11 @@ const CustomerHome=()=>{
              </Paper>
              <div class="shop" id="shop" >
              <br/><br/><br/>
-                <RecommendedProducts />
+               {/* <RecommendedProducts />
                 <br/><br/>
                 <MostPopularProducts />
                 <br/><br/>
-                <ProductCategories />
+                <ProductCategories />*/}
              </div>
         </ThemeProvider >
     </Grid>

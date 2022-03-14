@@ -97,17 +97,17 @@ export default function MenuAppBar(props) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  let navigate = useNavigate();
+//  let navigate = useNavigate();
 
   const handleSignout = () => {
     setAnchorEl(null);
-    navigate('/', {replace: true})
+//    navigate('/', {replace: true})
 
   };
 
   const handleProfile = () => {
     setAnchorEl(null);
-    navigate('/customerProfile', {replace: true})
+//    navigate('/customerProfile', {replace: true})
 
   };
 
@@ -118,11 +118,11 @@ export default function MenuAppBar(props) {
     };
 
   const goHome = () => {
-    navigate('/customerHome', {replace: true})
+//    navigate('/customerHome', {replace: true})
 
   };
   const goToShoppingBasket = () => {
-      navigate('/shoppingBasket', {replace: true})
+//      navigate('/shoppingBasket', {replace: true})
 
     };
 
@@ -131,7 +131,7 @@ export default function MenuAppBar(props) {
     };
 
   const dataInfo = JSON.parse(localStorage.getItem("myInfo"))
-    console.log(dataInfo.username)
+//    console.log(dataInfo.username)
   return (
     <Box mb={10}>
       <div className={classes.root}>
@@ -165,7 +165,7 @@ export default function MenuAppBar(props) {
 
                     <Button onClick={handleMenu} className={classes.menuButton} startIcon={<AccountCircleIcon />} endIcon={<ArrowDropDownIcon />}
                      size="large" style={{ fontSize: 15, textTransform: 'none', color: 'white' }} >
-                            <Typography >Hello, {dataInfo.username}</Typography>
+                            <Typography >Hello, dataInfo.username</Typography>
                     </Button>
                   <StyledMenu
                     id="menu-appbar"

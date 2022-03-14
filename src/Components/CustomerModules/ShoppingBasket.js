@@ -42,7 +42,7 @@ const ShoppingBasket = (props) => {
     const [itemCount, setItemCount] = React.useState(1);
 
     const myInfo = JSON.parse(localStorage.getItem("myInfo"))
-    const userid=myInfo.id;
+//    const userid=myInfo.id;
     useEffect(()=>{
         axios.get(`http://localhost:8088/customer/getBasket/8`)
         .then(res=>{
@@ -53,7 +53,7 @@ const ShoppingBasket = (props) => {
         .catch(err=>{
             console.log(err)
         })
-    },[userid])
+    },[8])
 
     const myBasket = JSON.parse(localStorage.getItem("myBasket"))
     const onSubmit = (values, props) => {
@@ -66,8 +66,8 @@ const ShoppingBasket = (props) => {
             }
 
         const dataInfo = JSON.parse(localStorage.getItem("myInfo"))
-        const custId = dataInfo.id;
-        axios.post(`http://localhost:8088/customer/addToBasket/${custId}`, Order)
+//        const custId = dataInfo.id;
+        axios.post(`http://localhost:8088/customer/addToBasket/8`, Order)
         .then((response) => {
             var res=response.status
             console.log(response)
@@ -99,7 +99,7 @@ const ShoppingBasket = (props) => {
     const classes=useStyles();
     return(
         <Box>
-            <Homebar/>
+           {/* <Homebar/>*/}
       <Box m={5}>
 
             <Grid container  spacing={6} >

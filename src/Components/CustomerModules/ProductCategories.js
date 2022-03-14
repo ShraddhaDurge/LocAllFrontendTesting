@@ -19,11 +19,11 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const ProductCategories=()=>{
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
       const productDescription = product => e =>  {
        localStorage.setItem("productInfo", JSON.stringify(product));
-       navigate('/productDescription', {replace: true})
+//       navigate('/productDescription', {replace: true})
     };
 
       const responsive = {
@@ -55,7 +55,7 @@ const ProductCategories=()=>{
             .then((data) => setProductsList([...data]))
             .then(setisLoading(false));
 
-            console.log(productsList);
+//            console.log(productsList);
           }, []);
 
     return(

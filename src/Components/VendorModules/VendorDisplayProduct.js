@@ -9,10 +9,10 @@ function VendorDisplayProduct(props){
     const btnstyle = { margin:'20px auto',display:'flex',justifyContent:'center',alignItems:'center', width:'30%',height:'20%', backgroundColor: '#2196F3'}
     const linkstyle={color:'#FFF', hover: "#000", textDecoration: 'none', cursor: 'pointer', padding:'10px 10px' }
     const pid=JSON.parse(localStorage.getItem("product id"))
-    console.log("pid="+pid)
+//    console.log("pid="+pid)
 
     const productInfo = JSON.parse(localStorage.getItem("productInfo"))
-    console.log("productInfo in display= "+productInfo)
+//    console.log("productInfo in display= "+productInfo)
 
     return(
         <html style={{height:'100%'}}>
@@ -39,27 +39,27 @@ function VendorDisplayProduct(props){
             <table><tbody><tr>
 
                 <Typography gutterBottom variant="h5" component="div">
-                    <td>Product:</td><td> {productInfo.productName}</td>
+                    <td>Product:</td><td> productName</td>
                 </Typography></tr>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2">
                     <tr>
-                <td>Description:</td><td> {productInfo.productDesc}</td>
+                <td>Description:</td><td> productDesc</td>
                 </tr><tr>
 
-                <td>Selling Price Per Unit:</td><td> Rs.{productInfo.price}</td>
+                <td>Selling Price Per Unit:</td><td> productInfo.price</td>
                 </tr><tr>
 
-                <td>Available Quantity:</td><td> {productInfo.quantAvailable}</td>
+                <td>Available Quantity:</td><td> productInfo.quantAvailable</td>
                 </tr><tr>
 
-                <td>Tags:</td><td>   {productInfo.productTags.map((tag, i) => (
-                    <span key={i}>#{tag.tag}    </span>))}</td>
+                <td>Tags:</td><td>
+                    <span>#tag    </span></td>
                 </tr>
                 </Typography>
             </tbody></table>
             <br/>
             <Button type='submit' variant="contained" style={btnstyle} fullWidth>
-            <Link to="/inventoryManagement" style={linkstyle}>Go Back</Link>
+            {/*    <Link style={linkstyle}>Go Back</Link>*/}
             </Button>
 
             </Container>

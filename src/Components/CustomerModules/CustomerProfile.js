@@ -11,10 +11,9 @@ import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Homebar from "./Homebar";
 import Image from '../Images/15.png';
-import CustomerSidebar from "./CustomerSidebar";
-import { ThemeProvider,createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider,createTheme } from '@material-ui/core/styles';
 
-const theme = createMuiTheme({
+const theme = createTheme({
  typography: {
    fontFamily: ['"Montserrat"', 'Open Sans','Chilanka','cursive'].join(',')
   }
@@ -33,13 +32,13 @@ function customerProfile(myProfile,action) {
 
       case 'success': {
         return {
-        username: myInfo.username,
-        email: myInfo.email,
-        phoneno: myInfo.phoneno,
-        billingAddress: customerProfile.billingAddress,
-        shippingAddress:customerProfile.shippingAddress,
-        shippingPincode:customerProfile.shippingPincode,
-        billingPincode:customerProfile.billingPincode
+        username: "myInfo.username",
+        email: "myInfo.email",
+        phoneno: "myInfo.phoneno",
+        billingAddress: "customerProfile.billingAddress",
+        shippingAddress:"customerProfile.shippingAddress",
+        shippingPincode:"customerProfile.shippingPincode",
+        billingPincode:"customerProfile.billingPincode"
         };
       }
       case 'error': {
@@ -69,9 +68,9 @@ const CustomerProfile=()=>{
     const myInfo=JSON.parse(localStorage.getItem("myInfo"))
 
     const initialValues = {
-        username: myInfo.username,
-        phoneno: myInfo.phoneno,
-        email: myInfo.email,
+        username: "myInfo.username",
+        phoneno: "myInfo.phoneno",
+        email: "myInfo.email",
         billingAddress:'',
         shippingAddress:'',
         shippingPincode:'',
@@ -85,10 +84,10 @@ const CustomerProfile=()=>{
     const [success,setSuccess]=useState(false);
     const [mesg,setMesg]=useState('');
     const [open, setOpen] =useState(false);
-    const userid = myInfo.id;
+//    const userid = myInfo.id;
     useEffect(()=>{
 
-            axios.get(`http://localhost:8088/customer/getCustomerProfile/${userid}`)
+            axios.get(`http://localhost:8088/customer/getCustomerProfile/8`)
             .then(res=>{
                 console.log(res)
                localStorage.setItem('customerProfile',JSON.stringify(res.data))
@@ -99,9 +98,9 @@ const CustomerProfile=()=>{
                 setMyProfile({ type: 'error' })
 
             })
-        },[userid])
+        },[8])
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
     const onSubmit = async (e) => {
         e.preventDefault();
         const userProfile = {
@@ -111,7 +110,7 @@ const CustomerProfile=()=>{
             billingPincode
         };
 
-        axios.post(`http://localhost:8088/customer/updateCustomerProfile/${userid}`, userProfile)
+        axios.post(`http://localhost:8088/customer/updateCustomerProfile/8`, userProfile)
         .then((response) => {
             var res = response.status;
 
@@ -148,7 +147,7 @@ const CustomerProfile=()=>{
   };
 
     const viewHomepage = () => {
-         navigate('/customerHome', {replace: true})
+//         navigate('/customerHome', {replace: true})
       };
 
       const viewPastOrders = () => {
@@ -158,7 +157,7 @@ const CustomerProfile=()=>{
 
     return(
         <Grid>
-        <Homebar />
+        {/*<Homebar /> */}
         <Grid style={{padding:"10px"}}>
         <center>
 
@@ -168,12 +167,12 @@ const CustomerProfile=()=>{
                  <Grid style={{paddingTop:"50px", alignItems:"center"}}>
 
                      <Typography gutterBottom variant="h4" fontFamily="Segoe UI" color="primary">
-                          Welcome, @{myInfo.username}!
+                          Welcome, @myInfo.username!
                        </Typography>
                        <Typography gutterBottom color="textSecondary">
-                           {myInfo.email}
+                           myInfo.email
                            <br />
-                           +91{myInfo.phoneno}
+                           +91myInfo.phoneno
                        </Typography>
                 </Grid>
                  </Paper>

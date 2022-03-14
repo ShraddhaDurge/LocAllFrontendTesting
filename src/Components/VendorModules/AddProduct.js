@@ -47,9 +47,9 @@ const AddProduct = (props) => {
         }
 
         const businessInfo=JSON.parse(localStorage.getItem("businessInfo"))
-        const id = businessInfo.business_id
+//        const id = businessInfo.business_id
         console.log(Product)
-            axios.post(`http://localhost:8088/product/add/${id}`, Product)
+            axios.post(`http://localhost:8088/product/add/8`, Product)
             .then((response) => {
                 var resp = response.status;
                 console.log(response.data);
@@ -123,7 +123,7 @@ const AddProduct = (props) => {
             <Dialog
                 fullWidth={true}
 
-                open={add.open}
+                open={true}
                 onClose={handleClose}
                 aria-labelledby="alert-dialog-title"
                 aria-describedby="alert-dialog-description"
@@ -223,8 +223,8 @@ const AddProduct = (props) => {
                     notify={notify}
                     setNotify={setNotify}
                 />
-                <UploadProductImage imgdialog={imgdialog}
-                    setImgdialog={setImgdialog} />
+                {/*<UploadProductImage imgdialog={imgdialog}
+                    setImgdialog={setImgdialog} />*/}
 
                 {/* </Grid> */}
             </Dialog>

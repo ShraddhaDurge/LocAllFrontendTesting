@@ -25,7 +25,7 @@ function DisplayImage(){
                 <Typography variant='h6' color="textSecondary" align="center">Cannot Access Image without clicking on License</Typography>
             <br/>
             <Button type='submit' variant="contained" style={btnstyle} fullWidth>
-            <Link to="/vendorVerification" style={linkstyle}>Go Back</Link>
+
             </Button>
             </center>
             <br/>
@@ -56,7 +56,7 @@ function DisplayImage(){
             <br/>
 
             <Button type='submit' variant="contained" style={btnstyle} fullWidth>
-            <Link to="/vendorVerification" style={linkstyle}>Go Back</Link>
+
             </Button>
             </center>
             <br/>

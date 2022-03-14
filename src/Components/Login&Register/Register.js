@@ -35,7 +35,7 @@ const Register = () => {
     }
 
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
     const onSubmit = (values, props) => {
         const user = {
@@ -92,13 +92,13 @@ const Register = () => {
 
 
             if(userInfo.user.role==='customer') {
-                navigate('/', { replace: true })
+//                navigate('/', { replace: true })
             }
             else if(userInfo.user.role==='vendor'){
-                navigate('/businessRegister', { replace: true })
+//                navigate('/businessRegister', { replace: true })
             }
             else {
-                navigate('/', { replace: true })
+//                navigate('/', { replace: true })
             }
         }
         else {
@@ -108,7 +108,7 @@ const Register = () => {
     };
 
     const Login = () => {
-        navigate('/', { replace: true })
+//        navigate('/', { replace: true })
     };
 
     const useStyles = makeStyles({

@@ -26,15 +26,15 @@ function businessProfile(myprofile,action) {
 
       case 'success': {
         return {
-        username: myInfo.username,
-        email: myInfo.email,
-        phoneno: myInfo.phoneno,
-        businessName: businessInfo.businessName,
-        businessCategory: businessInfo.businessCategory,
-        address: businessInfo.address,
-        pincodes: businessInfo.pincodes,
-        gstin: businessInfo.gstin,
-        businessStatus:businessInfo.status
+        username: "myInfo.username",
+        email: "myInfo.email",
+        phoneno: "myInfo.phoneno",
+        businessName: "businessInfo.businessName",
+        businessCategory: "businessInfo.businessCategory",
+        address: "businessInfo.address",
+        pincodes: "businessInfo.pincodes",
+        gstin: "businessInfo.gstin",
+        businessStatus:"businessInfo.status"
         };
       }
       case 'error': {
@@ -67,15 +67,15 @@ const VendorHome=()=>{
     const emptyPins = {pincode:0,district:'', statename:''};
 
     const initialValues = {
-        username: myInfo.username,
-        phoneno: myInfo.phoneno,
-        email: myInfo.email,
-        businessName: businessInfo.businessName,
-        businessCategory: businessInfo.businessCategory,
-        address: businessInfo.address,
-        pincodes: businessInfo.pincodes,
-        gstin: businessInfo.gstin,
-        businessStatus: businessInfo.status
+        username: "myInfo.username",
+        phoneno: "myInfo.phoneno",
+        email: "myInfo.email",
+        businessName: "businessInfo.businessName",
+        businessCategory: "businessInfo.businessCategory",
+        address: "businessInfo.address",
+        pincodes: "businessInfo.pincodes",
+        gstin: "businessInfo.gstin",
+        businessStatus: "businessInfo.status"
     }
 
     const [myprofile, setMyprofile] = useReducer(businessProfile, initialValues);
@@ -84,11 +84,11 @@ const VendorHome=()=>{
     const [mesg,setMesg]=useState('');
     const [open, setOpen] =useState(false);
     const [editPincodes, setEditPincodes] = useState(false);
-    const userid = myInfo.id
+//    const userid = myInfo.id
 
     useEffect(()=>{
 
-            axios.get(`http://localhost:8088/vendor/getBusiness/${userid}`)
+            axios.get(`http://localhost:8088/vendor/getBusiness/8`)
             .then(res=>{
                 console.log(res)
                 const pro=res.data
@@ -100,9 +100,9 @@ const VendorHome=()=>{
                 setMyprofile({ type: 'error' })
 
             })
-        },[userid])
+        },[8])
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
     const onSubmit = async (e) => {
         e.preventDefault();
         const business = {
@@ -114,7 +114,7 @@ const VendorHome=()=>{
 
         console.log(business)
 
-        axios.post(`http://localhost:8088/vendor/updateBusiness/${userid}`, business)
+        axios.post(`http://localhost:8088/vendor/updateBusiness/8`, business)
         .then((response) => {
             var res = response.status;
 
@@ -151,7 +151,7 @@ const VendorHome=()=>{
     const info2=JSON.parse(localStorage.getItem("businessInfo"))
      const handleEditPincode = () => {
                setEditPincodes(true);
-               info2.pincodes = [emptyPins];
+//               info2.pincodes = [emptyPins];
 
        };
         const removePincode = (event) => {
@@ -174,18 +174,18 @@ const VendorHome=()=>{
 
     return(
         <Grid>
-        <VendorSidebar />
+        {/*<VendorSidebar /> */}
         <Grid style={gridStyle}>
 
         <Paper elevation={20} style={paperStyle} >
             <Paper style={{backgroundImage: `url(${Image})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", height:120, widh:800, padding:"60px 0px 0px 90px", marginBottom:"20px"}}>
               <Typography gutterBottom variant="h5" fontFamily="Segoe UI" color="textPrimary">
-                Hello @{info2.user.username}! <FieldIcon name={info2.status} />
+                Hello info2.user.username! <FieldIcon name="Verified" />
               </Typography>
               <Typography gutterBottom color="textSecondary">
-                  {info2.user.email}
+                  user.email
                   <br />
-                  +91{info2.user.phoneno}
+                  +91user.phoneno
               </Typography>
             </Paper>
             <Typography variant='h6' color="textSecondary" align="center">Business Profile</Typography>
@@ -198,7 +198,7 @@ const VendorHome=()=>{
                         <Grid item xs={6}>
                             <Field as={TextField} label='Business Name' name="businessName" required  value={businessName}
                             error={props.errors.businessName && props.touched.businessName} onInput={props.handleChange}
-                            disabled={info2.status === "Pending" ? true : false}
+
                             onChange={e=>
                               setMyprofile({
                                   type: 'field',
@@ -213,7 +213,7 @@ const VendorHome=()=>{
                         <Grid item xs={6}>
                             <Field as={TextField}  label='Business Category'  name="businessCategory" required value={businessCategory}
                             error={props.errors.businessCategory && props.touched.businessCategory}  onInput={props.handleChange}
-                            disabled={info2.status === "Pending" ? true : false}
+
                             onChange={(e) =>
                               setMyprofile({
                                   type: 'field',
@@ -227,7 +227,7 @@ const VendorHome=()=>{
                         <Grid item xs={6}>
                             <Field as={TextField} label='Address' name="address" required value={address}
                             error={props.errors.address && props.touched.address} onInput={props.handleChange}
-                            disabled={info2.status === "Pending" ? true : false}
+
                             onChange={(e) =>
                               setMyprofile({
                                   type: 'field',
@@ -237,14 +237,14 @@ const VendorHome=()=>{
                               } helperText={<ErrorMessage name="address" />}/>
                         </Grid>
                         <Grid item xs={6}>
-                            <Field as={TextField} label='gstin' name="gstin" required  value={info2.gstin}
+                            <Field as={TextField} label='gstin' name="gstin" required  value="gstin"
                             error={props.errors.gstin && props.touched.gstin} onInput={props.handleChange} disabled/>
                         </Grid>
                         <Grid item xs={6} align="center" style={{marginLeft:"90px"}}>
-                          <FieldArray name="pincodes">
+                          {/*<FieldArray name="pincodes">
                                 {({ push, remove }) => (
                                   <Fragment>
-                                    {info2.pincodes.map((pincode, index) => (
+                                    {pincodes.map((pincode, index) => (
                                       <Grid container item key={index} >
                                             <Grid item xs={6}>
                                                   <Field as={TextField} size="small" label='Serviceable pincode' variant="outlined" required error={props.errors.pincode && props.touched.pincode}
@@ -265,12 +265,12 @@ const VendorHome=()=>{
 
                               </Fragment>
                             )}
-                          </FieldArray>
+                          </FieldArray>*/}
                         </Grid >
                         </Grid >
                         </div>
                         <Button type='submit' color='primary' variant="contained" onClick={onSubmit}
-                            style={btnstyle} disabled={props.isSubmitting || info2.status === "Pending" ? true : false}
+                            style={btnstyle} disabled={props.isSubmitting}
                             fullWidth>{props.isSubmitting ? "Loading" : "Edit"}</Button>
 
                     </Form>

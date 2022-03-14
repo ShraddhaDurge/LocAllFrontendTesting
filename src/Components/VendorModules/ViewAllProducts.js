@@ -21,7 +21,7 @@ import { Link } from 'react-router-dom';
 const ViewAllProducts = (props) => {
     const { viewAllP, setViewAllP } = props;
     console.log("in view alll"+props);
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
     // const paperStyle = { padding: '20px 20px', width: 800, height: 460, margin: "30px auto" }
 //    const headerStyle = { margin: 0 }
@@ -44,22 +44,22 @@ const ViewAllProducts = (props) => {
     const showProduct = info => e => {
         console.log("in show product")
         localStorage.setItem("productInfo", JSON.stringify(info));
-        window.location.href="/vendorDisplayProduct"
+//        window.location.href="/vendorDisplayProduct"
     }
 
     const [productsList, setProductsList] = useState([]);
     const [isLoading, setisLoading] = useState(true);
     const businessInfo=JSON.parse(localStorage.getItem("businessInfo"))
-    const bid = businessInfo.business_id
+//    const bid = businessInfo.business_id
     React.useEffect(() => {
 
-      fetch(`http://localhost:8088/product/getList/${bid}`)
+      fetch(`http://localhost:8088/product/getList/8`)
       .then((res) => res.json())
       .then((data) => setProductsList([...data]))
       .then(setisLoading(false));
 
       console.log(productsList);
-    }, [bid]);
+    }, [8]);
 
 
     return(
@@ -90,7 +90,7 @@ const ViewAllProducts = (props) => {
                 maxWidth="lg"
                 //fullWidth={true}
 
-                open={viewAllP.openViewAll}
+                open={true}
                 onClose={handleClose}
                 aria-labelledby="alert-dialog-title"
                 aria-describedby="alert-dialog-description"

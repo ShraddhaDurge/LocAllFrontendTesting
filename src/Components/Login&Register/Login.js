@@ -99,7 +99,7 @@ const Login = ({ handleChange }) => {
         email: Yup.string().email("Enter valid email").required("Required"),
         password: Yup.string().required("Required")
     })
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
     const onSubmit = (values, props) => {
         const loguser = {
             email: values.email,
@@ -115,16 +115,16 @@ const Login = ({ handleChange }) => {
                 if(res === 200){
                     if(response.data.role ==='customer'){
                         localStorage.setItem('myInfo', JSON.stringify(response.data.user));
-                        navigate('/customerHome', { replace: true })
+//                        navigate('/customerHome', { replace: true })
                     }else if(response.data.role ==='admin'){
                          localStorage.setItem('myInfo', JSON.stringify(response.data.user));
-                         navigate('/adminHome', { replace: true })
+//                         navigate('/adminHome', { replace: true })
                          }
                     else if(response.data.role ==='vendor'){
                         console.log(response.data.business.user)
                         localStorage.setItem('myInfo', JSON.stringify(response.data.business.user));
                         localStorage.setItem('businessInfo', JSON.stringify(response.data.business));
-                        navigate('/vendorHome', { replace: true })
+//                        navigate('/vendorHome', { replace: true })
                     }
                     else {
                         console.log("No such role exists!")
@@ -153,7 +153,7 @@ const Login = ({ handleChange }) => {
             });
     }
     const Register = () => {
-        navigate('/register', { replace: true })
+//        navigate('/register', { replace: true })
     };
 
     const classes = useStyles();

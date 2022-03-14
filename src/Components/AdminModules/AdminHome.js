@@ -12,13 +12,13 @@ const AdminHome=()=>{
     const paperStyle={padding :'0px 20px 0px 20px',width:800, height:520, margin: 'auto' }
     const gridStyle={backgroundColor: '#E3F2FD',height:'96vh', padding:'20px 0px 0px 0px'}
 
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
   const verifyVendors = () => {
-    navigate('/vendorVerification', {replace: true})
+//    navigate('/vendorVerification', {replace: true})
   };
   const handleLogout = () => {
-      navigate('/', {replace: true})
+//      navigate('/', {replace: true})
     };
 
 

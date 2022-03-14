@@ -67,7 +67,7 @@ class VendorVerification extends Component{
 				<Grid align='center' style={{padding:"30px 10px"}}>
 				<Typography variant='h5' color="textSecondary" align="center">No Vendors Pending to Verify</Typography>
 				<Button type='submit' variant="contained" style={btnstyle} fullWidth>
-				<Link to="/adminHome" style={linkstyle}>Back to Home Page</Link>
+
 				</Button>
 				</Grid>
 				</Paper>
@@ -83,14 +83,14 @@ class VendorVerification extends Component{
 
 			const show = license => e => {
 				localStorage.setItem('image info', JSON.stringify(license));
-				this.props.history.push('/displayImage');
+//				this.props.history.push('/displayImage');
 			}
 
 			const acceptVendor = business_id => e => {
             		console.log("Business id: "+business_id)
             		console.log("Status: Accepted")
 
-            		axios.post(`http://localhost:8088/admin/acceptVendor/${business_id}`)
+            		axios.post(`http://localhost:8088/admin/acceptVendor/8`)
             		.then((response) => {
             				var res = response.status;
             				console.log(response.data)
@@ -224,19 +224,19 @@ class VendorVerification extends Component{
 													</td>
 												<td>{ item.gstin }</td>
 												<td>
-												<Link to="/displayImage" className="btn btn-primary">
+
 												<img src={`data:image/png;base64,${item.license}`} width={100}  onClick={show(item.license)} />
-												</Link>
+
 												</td>
 
 												<td>
-												<Button type='submit' variant="contained" backgroundColor="#81C784" style={acceptbtnstyle} fullWidth onClick={acceptVendor(item.business_id)}>
+												<Button type='submit' variant="contained" backgroundColor="#81C784" style={acceptbtnstyle} fullWidth onClick={acceptVendor(8)}>
 												<Typography variant='subtitle2' style={statustxtstyle} align="center">
 													Accept
 												</Typography>
 												</Button>
 
-												<Button type='submit' variant="contained" style={denybtnstyle} fullWidth onClick={rejectVendor(item.business_id)}>
+												<Button type='submit' variant="contained" style={denybtnstyle} fullWidth onClick={rejectVendor(8)}>
 												<Typography variant='subtitle2' style={statustxtstyle} align="center">
 													Deny
 												</Typography>

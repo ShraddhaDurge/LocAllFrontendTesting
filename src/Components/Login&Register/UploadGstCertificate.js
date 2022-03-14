@@ -19,7 +19,7 @@ export default function UploadGstCertificate(props) {
     const hiddenFileInput = React.useRef(null);
 
     const { imgdialog, setImgdialog } = props;
-     let navigate = useNavigate();
+//     let navigate = useNavigate();
 
 
     const handleClose = () => {
@@ -27,7 +27,7 @@ export default function UploadGstCertificate(props) {
             isOpen: false
         });
         setFileName(null);
-        navigate('/login', { replace: true })
+//        navigate('/login', { replace: true })
     };
 
 
@@ -37,7 +37,7 @@ export default function UploadGstCertificate(props) {
         fd.append('file', selectedFile);
         console.log({ selectedFile })
         const busiInfo = JSON.parse(localStorage.getItem("busiInfo"));
-        const bid = busiInfo.business_id;
+//        const bid = busiInfo.business_id;
 
         const config = {
             headers: {
@@ -47,7 +47,7 @@ export default function UploadGstCertificate(props) {
         console.log(bid);
 
         axios({
-            url:`http://localhost:8088/vendor/uploadBusinessLicense/${bid}`,
+            url:`http://localhost:8088/vendor/uploadBusinessLicense/5`,
             method: 'post',
             data: fd,
             config
@@ -94,7 +94,7 @@ export default function UploadGstCertificate(props) {
         <Dialog
             fullWidth={true}
 
-            open={imgdialog.isOp}
+            open={true}
             onClose={handleClose}
             aria-labelledby="alert-dialog-title"
             aria-describedby="alert-dialog-description"

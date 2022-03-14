@@ -45,16 +45,16 @@ const ProductDescription = (props) => {
 
     const onSubmit = (values, props) => {
 
-        const productId = productInfo.productId
+//        const productId = productInfo.productId
 
         const Order = {
-            productId: productId,
+            productId: 8,
             quantSelected: itemCount
             }
 
         const dataInfo = JSON.parse(localStorage.getItem("myInfo"))
-        const custId = dataInfo.id;
-        axios.post(`http://localhost:8088/customer/addToBasket/${custId}`, Order)
+//        const custId = dataInfo.id;
+        axios.post(`http://localhost:8088/customer/addToBasket/8`, Order)
         .then((response) => {
             var res=response.status
             console.log(response)
@@ -86,7 +86,7 @@ const ProductDescription = (props) => {
     const classes=useStyles();
     return(
         <Box>
-            <Homebar/>
+            {/*<Homebar/>*/}
       <Box m={5}>
 
             <Grid container  spacing={6} >
@@ -96,17 +96,17 @@ const ProductDescription = (props) => {
                           <CardContent>
                           <Grid container spacing={5}>
                              <Grid item xs={6} style={{ margin:'0px 0px', padding:'0px 0px'}}>
-                                 <img src={`data:image/png;base64,${productInfo.productImage}`} background_size= "cover" border-radius= "200px" background_repeat= "no-repeat" alt="Event image" height= "480" width="550"/>
+                                 <img src={`data:image/png;base64,"productInfo.productImage"`} background_size= "cover" border-radius= "200px" background_repeat= "no-repeat" alt="Event image" height= "480" width="550"/>
                              </Grid>
                             <Grid item xs={4} style={{ margin:'0px auto', padding:'20px 50px', align:"center"}}>
                                <br></br>
                                <Typography gutterBottom variant="h3" component="div" color="primary" >
                                     <b>
-                                    {productInfo.productName}
+                                    productInfo.productName
                                     </b>
                                </Typography>
                                <Typography display="inline" gutterBottom variant="h5" component="div">
-                                   <CurrencyRupeeIcon/>{productInfo.price} &nbsp;
+                                   <CurrencyRupeeIcon/>productInfo.price &nbsp;
                                    </Typography>
                                    <Typography display="inline" gutterBottom variant="subtitle1" component="div">
                                        per item
@@ -117,10 +117,10 @@ const ProductDescription = (props) => {
                               Product Description:
                                </Typography>
                               <Typography gutterBottom variant="h6" component="div">
-                                    {productInfo.productDesc}
+                                    productInfo.productDesc
                                </Typography>
                                 <Typography gutterBottom variant="subtitle1" component="div">
-                                  {productInfo.productTags.map((tag, i) => (<span key={i}>#{tag.tag}</span>))}
+                                  <span>#tag.tag</span>
                                   </Typography>
                                   <br/>
                                   <br/>

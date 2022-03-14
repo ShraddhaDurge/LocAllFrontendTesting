@@ -1,4 +1,4 @@
-import React,{ useState, useEffect, useReducer,Fragment} from 'react';
+import {React, useState, useEffect, useReducer,Fragment} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Grid, Paper, TextField, Button,Typography } from '@material-ui/core';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
@@ -18,7 +18,7 @@ import Image from '../Images/Inventory-Management2.jpg';
 //import Image from '../Images/Inventory5.png';
 const InventoryManagement=()=>{
 
-    const paperStyle={width:800, height:520, marginLeft:"390px", overflow:'hidden', align: 'center', position: 'relative'}
+    const paperStyle={width:800, height:520, marginLeft:"390px", overflow:"hidden", align: "center", position: "relative"}
     const headStyle={margin:0,fontFamily:'san-serif',color:'blue'}
     const btnstyle = { margin:'20px auto',display:'flex',justifyContent:'center',alignItems:'center', width:'30%',height:'20%', backgroundColor: '#2196F3'}
     const imgstyle={height:100,width:180}
@@ -26,16 +26,16 @@ const InventoryManagement=()=>{
     const gridItem= {border: '1px solid lightgray', borderRadius: '20px', backgroundColor: '#Faf0e6', marginTop: '1px', width: 300, marginLeft: '30px'}
     const crudButtonStyle= { margin: '20px' }
     const root= {marginLeft: '3px'}
-    const [notify, setNotify] = React.useState({ isOpen: false, mesg: '' });
+    const [notify, setNotify] = useState({ isOpen: false, mesg: "" });
     const [mesg, setMesg] = useState('');
     const [open, setOpen] = useState(false);
     const [success,setSuccess]=useState(false);
-    const [dele, setDelete] = React.useState({ isOp: false });
-    const [add, setAdd] = React.useState({ open: false });
-    const [editp, setEditp] = React.useState({ openEdit: false });
-    const [viewAllP, setViewAllP] = React.useState({ openViewAll: false });
+    const [dele, setDelete] = useState({ isOp: false });
+    const [add, setAdd] = useState({ open: false });
+    const [editp, setEditp] = useState({ openEdit: false });
+    const [viewAllP, setViewAllP] = useState({ openViewAll: false });
     const info2=JSON.parse(localStorage.getItem("businessInfo"));
-    let navigate = useNavigate();
+//    let navigate = useNavigate();
 
 const handleDialogue = () => {
     setOpen(true);
@@ -108,7 +108,7 @@ const handleDialogue = () => {
     return(
 
         <Grid>
-        <VendorSidebar/>
+        {/*<VendorSidebar/> */}
         <Grid style={gridStyle}>
 
 
@@ -123,7 +123,7 @@ const handleDialogue = () => {
 
                       <Grid item xs={4} style={{margin:'5px 10px 10px 70px'}} >
                         <Paper style={crudButtonStyle} style={{backgroundColor:'#F48FB1', height:120, width: 250}}>
-                              <Typography gutterBottom variant="body1"  color="Black" align="center" onClick={addProduct}  style={{ fontSize:18, cursor: 'pointer', padding:'50px 10px'}}>
+                              <Typography gutterBottom variant="body1"  color="textSecondary" align="center" onClick={addProduct}  style={{ fontSize:18, cursor: 'pointer', padding:'50px 10px'}}>
                                 Add Product
                               </Typography>
                         </Paper>
@@ -131,19 +131,19 @@ const handleDialogue = () => {
                       </Grid>
                       <Grid item xs={4} style={{margin:'5px 10px 10px 70px'}}>
                         <Paper style={crudButtonStyle} style={{backgroundColor:'#CE93D8', height:120, width: 250}}>
-                          <Typography gutterBottom variant="body1" color="Black" align="center" onClick={editProduct} style={{ fontSize:18, cursor: 'pointer', padding:'50px 10px' }}>
+                          <Typography gutterBottom variant="body1" color="textSecondary" align="center" onClick={editProduct} style={{ fontSize:18, cursor: 'pointer', padding:'50px 10px' }}>
                             Edit Product
                           </Typography></Paper>
                       </Grid>
                       <Grid item xs={4} style={{margin:'5px 10px 10px 70px'}}>
                         <Paper className={crudButtonStyle} style={{backgroundColor:'#80CBC4', height:120, width: 250}}>
-                          <Typography gutterBottom variant="body1" color="Black" align="center" onClick={deleteProduct} style={{ fontSize:18,cursor: 'pointer', padding:'50px 10px' }}>
+                          <Typography gutterBottom variant="body1" color="textSecondary" align="center" onClick={deleteProduct} style={{ fontSize:18,cursor: 'pointer', padding:'50px 10px' }}>
                             Delete Product
                           </Typography></Paper>
                       </Grid>
                       <Grid item xs={4} style={{margin:'5px 10px 10px 70px'}}>
                         <Paper className={crudButtonStyle} style={{backgroundColor:'#FFE082', height:120, width: 250}}>
-                          <Typography gutterBottom variant="body1" color="Black" align="center" onClick={viewAllProducts} style={{ fontSize:18,cursor: 'pointer', padding:'50px 10px' }}>
+                          <Typography gutterBottom variant="body1" color="textSecondary" align="center" onClick={viewAllProducts} style={{ fontSize:18,cursor: 'pointer', padding:'50px 10px' }}>
                             View All Products
                           </Typography></Paper>
                       </Grid>
@@ -153,14 +153,14 @@ const handleDialogue = () => {
                       notify={notify}
                       setNotify={setNotify}
          />
-              <DeleteProduct dele={dele}
+              {/*<DeleteProduct dele={dele}
                 setDelete={setDelete} />
               <AddProduct add={add}
                 setAdd={setAdd} />
               <EditProduct editp={editp}
                 setEditp={setEditp} />
              <ViewAllProducts viewAllP={viewAllP}
-                setViewAllP={setViewAllP} />
+                setViewAllP={setViewAllP} />*/}
     </Grid>
     </Grid>
 )
