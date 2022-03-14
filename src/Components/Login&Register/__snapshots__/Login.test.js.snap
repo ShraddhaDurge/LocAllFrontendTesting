@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login 1`] = `
+<div
+  className="MuiGrid-root makeStyles-gridStyle-7"
+>
+  <div
+    className="MuiBox-root MuiBox-root-8"
+  >
+    <div
+      className="MuiBox-root MuiBox-root-9"
+    >
+      <div
+        align="center"
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+        >
+          <img
+            align="center"
+            alt="logo"
+            height="60"
+            src="LocAll (8).png"
+            style={
+              Object {
+                "margin": "0px 180px",
+              }
+            }
+            width="270"
+          />
+          <div
+            className="MuiPaper-root MuiCard-root makeStyles-grid-2 MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "minwidth": 200,
+              }
+            }
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+              >
+                <div
+                  className="MuiGrid-root makeStyles-card-1 MuiGrid-item MuiGrid-grid-xs-6"
+                >
+                  <h6
+                    className="MuiTypography-root MuiTypography-h6"
+                    style={
+                      Object {
+                        "color": "#ECE5E2",
+                        "marginTop": "100px",
+                      }
+                    }
+                  >
+                    Not yet a member?
+                  </h6>
+                  <h6
+                    className="MuiTypography-root MuiTypography-subtitle1"
+                    style={
+                      Object {
+                        "color": "#ECE5E2",
+                      }
+                    }
+                  >
+                    Sign up and discover what we can do for you
+                  </h6>
+                  <center>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-buttonr-4"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="submit"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        Register
+                      </span>
+                    </button>
+                  </center>
+                </div>
+                <div
+                  className="MuiGrid-root makeStyles-grid-2 MuiGrid-item MuiGrid-grid-xs-6"
+                >
+                  <br />
+                  <center>
+                    <h5
+                      className="MuiTypography-root MuiTypography-h5"
+                      style={
+                        Object {
+                          "color": "#199bf1",
+                        }
+                      }
+                    >
+                      Login
+                    </h5>
+                  </center>
+                  <br />
+                  <form
+                    action="#"
+                    onReset={[Function]}
+                    onSubmit={[Function]}
+                  >
+                    <div
+                      className="MuiFormControl-root MuiTextField-root makeStyles-textField-6 MuiFormControl-fullWidth"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                        data-shrink={false}
+                      >
+                        Email Id
+                        <span
+                          aria-hidden={true}
+                          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                        >
+                           
+                          *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                          disabled={false}
+                          name="email"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder="Enter Email Id"
+                          required={true}
+                          type="text"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="EmailIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden={true}
+                          className="PrivateNotchedOutline-root-10 MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            className="PrivateNotchedOutline-legendLabelled-12"
+                          >
+                            <span>
+                              Email Id
+                               *
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                      <p
+                        className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                      />
+                    </div>
+                    <div
+                      className="MuiFormControl-root MuiTextField-root makeStyles-textField-6 MuiFormControl-fullWidth"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                        data-shrink={false}
+                      >
+                        Password
+                        <span
+                          aria-hidden={true}
+                          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                        >
+                           
+                          *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                          disabled={false}
+                          name="password"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder="Enter password"
+                          required={true}
+                          type="password"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="LockIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden={true}
+                          className="PrivateNotchedOutline-root-10 MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            className="PrivateNotchedOutline-legendLabelled-12"
+                          >
+                            <span>
+                              Password
+                               *
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                      <p
+                        className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                      />
+                    </div>
+                    <br />
+                    <br />
+                    <center>
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-buttons-5"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={0}
+                        type="submit"
+                      >
+                        <span
+                          className="MuiButton-label"
+                        >
+                          Login
+                        </span>
+                      </button>
+                    </center>
+                  </form>
+                  <br />
+                  <div />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;

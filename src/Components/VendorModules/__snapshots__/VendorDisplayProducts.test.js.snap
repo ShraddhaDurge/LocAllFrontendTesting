@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VendorDisplayProduct 1`] = `
+<html
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <style>
+    
+						table, th, td{
+
+							border-collapse: collapse;
+						}
+						th, td{
+							align: left;
+							padding: 10px;
+							max-width: 200px;
+						}
+
+					
+  </style>
+  <body
+    style={
+      Object {
+        "height": "100vh",
+      }
+    }
+  >
+    <center>
+      <div
+        className="MuiGrid-root"
+        style={
+          Object {
+            "backgroundColor": "#E3F2FD",
+            "height": "100vh",
+            "margin": "0px",
+            "overflow": "auto",
+            "postion": "fixed",
+          }
+        }
+      >
+        <center>
+          <div
+            className="MuiPaper-root MuiPaper-elevation20 MuiPaper-rounded"
+            style={
+              Object {
+                "align": "center",
+                "margin": "20px",
+                "padding": "20px",
+                "position": "relative",
+                "width": "120vh",
+              }
+            }
+          >
+            <div
+              align="center"
+              className="MuiGrid-root"
+              style={
+                Object {
+                  "padding": "30px 10px",
+                }
+              }
+            >
+              <center>
+                <div
+                  className="MuiContainer-root MuiContainer-maxWidthLg"
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <div
+                          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+                        >
+                          <td>
+                            Product:
+                          </td>
+                          <td>
+                             productName
+                          </td>
+                        </div>
+                      </tr>
+                      <p
+                        className="MuiTypography-root MuiTypography-body2"
+                      >
+                        <tr>
+                          <td>
+                            Description:
+                          </td>
+                          <td>
+                             productDesc
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Selling Price Per Unit:
+                          </td>
+                          <td>
+                             productInfo.price
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Available Quantity:
+                          </td>
+                          <td>
+                             productInfo.quantAvailable
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Tags:
+                          </td>
+                          <td>
+                            <span>
+                              #tag    
+                            </span>
+                          </td>
+                        </tr>
+                      </p>
+                    </tbody>
+                  </table>
+                  <br />
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-fullWidth"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#2196F3",
+                        "display": "flex",
+                        "height": "20%",
+                        "justifyContent": "center",
+                        "margin": "20px auto",
+                        "width": "30%",
+                      }
+                    }
+                    tabIndex={0}
+                    type="submit"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    />
+                  </button>
+                </div>
+              </center>
+              <br />
+            </div>
+          </div>
+        </center>
+      </div>
+    </center>
+  </body>
+</html>
+`;

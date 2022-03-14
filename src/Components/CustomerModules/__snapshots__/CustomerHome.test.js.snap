@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerHome 1`] = `
+<div
+  className="MuiGrid-root"
+  style={
+    Object {
+      "overflowX": "hidden",
+    }
+  }
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+    style={
+      Object {
+        "backgroundColor": "#81D4FA",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+      >
+        <img
+          alt="welcome"
+          height="470"
+          src="3.png"
+        />
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingTop": "80px",
+          }
+        }
+      >
+        <h3
+          className="MuiTypography-root MuiTypography-h3 MuiTypography-colorTextPrimary"
+        >
+              Welcome to LocALL!
+        </h3>
+        <br />
+        <img
+          alt="welcome"
+          height="50"
+          src="6.png"
+          width="500"
+        />
+        <div
+          className="MuiGrid-root"
+          style={
+            Object {
+              "paddingLeft": "160px",
+              "paddingTop": "120px",
+            }
+          }
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Shop Now       &gt;&gt;
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="shop"
+    id="shop"
+  >
+    <br />
+    <br />
+    <br />
+  </div>
+</div>
+`;

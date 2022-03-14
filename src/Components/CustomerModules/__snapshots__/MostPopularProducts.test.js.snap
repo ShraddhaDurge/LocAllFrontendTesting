@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MostPopularProducts 1`] = `
+<div
+  className="MuiGrid-root"
+>
+  <h5
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary MuiTypography-alignCenter"
+  >
+    Most Popular Products
+  </h5>
+  <div
+    className="react-multi-carousel-list  "
+  >
+    <ul
+      className="react-multi-carousel-track "
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "overflow": "unset",
+          "transform": "translate3d(0px,0,0)",
+          "transition": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;

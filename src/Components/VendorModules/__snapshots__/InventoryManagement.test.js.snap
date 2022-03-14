@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InventoryManagement 1`] = `
+<div
+  className="MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root"
+    style={
+      Object {
+        "backgroundColor": "#E3F2FD",
+        "height": 528,
+        "margin": "0px 0px",
+        "padding": "20px 0px",
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation20 MuiPaper-rounded"
+      style={
+        Object {
+          "align": "center",
+          "height": 520,
+          "marginLeft": "390px",
+          "overflow": "hidden",
+          "position": "relative",
+          "width": 800,
+        }
+      }
+    >
+      <div
+        align="center"
+        className="MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+          style={
+            Object {
+              "backgroundColor": "#00BCD4",
+              "backgroundImage": "url(Inventory-Management2.jpg)",
+              "backgroundRepeat": "no-repeat",
+              "backgroundSize": "contain",
+              "height": 120,
+              "marginBottom": "20px",
+              "paddingLeft": "300px",
+              "paddingTop": "80px",
+            }
+          }
+        >
+          <h5
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextPrimary MuiTypography-alignCenter"
+          >
+            Inventory Management
+          </h5>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
+        style={
+          Object {
+            "margin": "20px",
+          }
+        }
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+          style={
+            Object {
+              "margin": "5px 10px 10px 70px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#F48FB1",
+                "height": 120,
+                "width": 250,
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "fontSize": 18,
+                  "padding": "50px 10px",
+                }
+              }
+            >
+              Add Product
+            </p>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+          style={
+            Object {
+              "margin": "5px 10px 10px 70px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#CE93D8",
+                "height": 120,
+                "width": 250,
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "fontSize": 18,
+                  "padding": "50px 10px",
+                }
+              }
+            >
+              Edit Product
+            </p>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+          style={
+            Object {
+              "margin": "5px 10px 10px 70px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root margin MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#80CBC4",
+                "height": 120,
+                "width": 250,
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "fontSize": 18,
+                  "padding": "50px 10px",
+                }
+              }
+            >
+              Delete Product
+            </p>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+          style={
+            Object {
+              "margin": "5px 10px 10px 70px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root margin MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#FFE082",
+                "height": 120,
+                "width": 250,
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "fontSize": 18,
+                  "padding": "50px 10px",
+                }
+              }
+            >
+              View All Products
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;

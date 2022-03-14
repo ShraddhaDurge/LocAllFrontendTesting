@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessRegister 1`] = `
+<div
+  className="MuiGrid-root makeStyles-gridStyle-9"
+>
+  <div
+    className="MuiBox-root MuiBox-root-10"
+  >
+    <div
+      align="center"
+      className="MuiBox-root MuiBox-root-11"
+    >
+      <div
+        align="center"
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+        >
+          <img
+            align="center"
+            alt="logo"
+            height="60"
+            src="LocAll (8).png"
+            style={
+              Object {
+                "margin": "0px 180px",
+              }
+            }
+            width="270"
+          />
+          <div
+            className="MuiPaper-root MuiCard-root makeStyles-grid-2 MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "minwidth": 200,
+              }
+            }
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+              >
+                <div
+                  className="MuiGrid-root makeStyles-card-1 MuiGrid-item MuiGrid-grid-xs-6"
+                >
+                  <h6
+                    className="MuiTypography-root MuiTypography-subtitle1"
+                    style={
+                      Object {
+                        "color": "#ECE5E2",
+                        "marginTop": "100px",
+                      }
+                    }
+                  >
+                    Register your business here!
+                  </h6>
+                </div>
+                <div
+                  className="MuiGrid-root makeStyles-divScroll-3 MuiGrid-item MuiGrid-grid-xs-6"
+                >
+                  <center>
+                    <h5
+                      className="MuiTypography-root MuiTypography-h5"
+                      style={
+                        Object {
+                          "color": "#199bf1",
+                          "marginBottom": "15px",
+                        }
+                      }
+                    >
+                      Business Registration
+                    </h5>
+                  </center>
+                  <form
+                    action="#"
+                    onReset={[Function]}
+                    onSubmit={[Function]}
+                  >
+                    <div
+                      className="MuiFormControl-root MuiTextField-root makeStyles-textField-8 MuiFormControl-fullWidth"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                        data-shrink={false}
+                      >
+                        Business Name
+                        <span
+                          aria-hidden={true}
+                          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                        >
+                           
+                          *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                          disabled={false}
+                          name="businessName"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={true}
+                          type="text"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="StoreIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden={true}
+                          className="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            className="PrivateNotchedOutline-legendLabelled-14"
+                          >
+                            <span>
+                              Business Name
+                               *
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                      <p
+                        className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                      />
+                    </div>
+                    <div
+                      className="MuiFormControl-root MuiTextField-root makeStyles-textField-8 MuiFormControl-fullWidth"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                        data-shrink={false}
+                      >
+                        Business Category
+                        <span
+                          aria-hidden={true}
+                          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                        >
+                           
+                          *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                          disabled={false}
+                          name="businessCategory"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={true}
+                          type="businessCategory"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="CategoryIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12 2-5.5 9h11z"
+                          />
+                          <circle
+                            cx="17.5"
+                            cy="17.5"
+                            r="4.5"
+                          />
+                          <path
+                            d="M3 13.5h8v8H3z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden={true}
+                          className="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            className="PrivateNotchedOutline-legendLabelled-14"
+                          >
+                            <span>
+                              Business Category
+                               *
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                      <p
+                        className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                      />
+                    </div>
+                    <div
+                      className="MuiFormControl-root MuiTextField-root makeStyles-textField-8 MuiFormControl-fullWidth"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                        data-shrink={false}
+                      >
+                        Address
+                        <span
+                          aria-hidden={true}
+                          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                        >
+                           
+                          *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                          disabled={false}
+                          name="address"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={true}
+                          type="text"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="HomeIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden={true}
+                          className="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            className="PrivateNotchedOutline-legendLabelled-14"
+                          >
+                            <span>
+                              Address
+                               *
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                      <p
+                        className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                      />
+                    </div>
+                    <div
+                      className="MuiGrid-root MuiGrid-container MuiGrid-item"
+                    >
+                      <div
+                        className="MuiGrid-root"
+                      >
+                        <div
+                          className="MuiFormControl-root MuiTextField-root makeStyles-textField-8"
+                          pattern="^[1-9][0-9]{5}$"
+                        >
+                          <label
+                            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                            data-shrink={false}
+                          >
+                            Serviceable pincode
+                            <span
+                              aria-hidden={true}
+                              className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                            >
+                               
+                              *
+                            </span>
+                          </label>
+                          <div
+                            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                            onClick={[Function]}
+                          >
+                            <input
+                              aria-invalid={false}
+                              autoFocus={false}
+                              className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                              disabled={false}
+                              name="pincodes.0.pincode"
+                              onAnimationStart={[Function]}
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              required={true}
+                              type="text"
+                            />
+                            <svg
+                              aria-hidden={true}
+                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                              data-testid="PinDropIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M18 8c0-3.31-2.69-6-6-6S6 4.69 6 8c0 4.5 6 11 6 11s6-6.5 6-11zm-8 0c0-1.1.9-2 2-2s2 .9 2 2-.89 2-2 2c-1.1 0-2-.9-2-2zM5 20v2h14v-2H5z"
+                              />
+                            </svg>
+                            <fieldset
+                              aria-hidden={true}
+                              className="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
+                            >
+                              <legend
+                                className="PrivateNotchedOutline-legendLabelled-14"
+                              >
+                                <span>
+                                  Serviceable pincode
+                                   *
+                                </span>
+                              </legend>
+                            </fieldset>
+                          </div>
+                          <p
+                            className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="MuiGrid-root"
+                      >
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-pincodeButtons-7 MuiButton-containedSizeSmall MuiButton-sizeSmall Mui-disabled Mui-disabled"
+                          disabled={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={-1}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Delete
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        className="MuiGrid-root MuiGrid-item"
+                      >
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-pincodeButtons-7 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Add Pincode
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="MuiFormControl-root MuiTextField-root makeStyles-textField-8 MuiFormControl-fullWidth"
+                    >
+                      <label
+                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                        data-shrink={false}
+                      >
+                        GSTIN
+                        <span
+                          aria-hidden={true}
+                          className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                        >
+                           
+                          *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                        onClick={[Function]}
+                      >
+                        <input
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                          disabled={false}
+                          name="gstin"
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          required={true}
+                          type="text"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                          data-testid="DocumentScannerIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M7 3H4v3H2V1h5v2zm15 3V1h-5v2h3v3h2zM7 21H4v-3H2v5h5v-2zm13-3v3h-3v2h5v-5h-2zm-1 0c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v12zM15 8H9v2h6V8zm0 3H9v2h6v-2zm0 3H9v2h6v-2z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden={true}
+                          className="PrivateNotchedOutline-root-12 MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            className="PrivateNotchedOutline-legendLabelled-14"
+                          >
+                            <span>
+                              GSTIN
+                               *
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                      <p
+                        className="MuiFormHelperText-root MuiFormHelperText-contained Mui-required MuiFormHelperText-marginDense"
+                      />
+                    </div>
+                    <center>
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-buttons-6"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={0}
+                        type="submit"
+                      >
+                        <span
+                          className="MuiButton-label"
+                        >
+                          Register Business
+                        </span>
+                      </button>
+                    </center>
+                  </form>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

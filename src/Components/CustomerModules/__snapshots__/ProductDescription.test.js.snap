@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDescription 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-3"
+>
+  <div
+    className="MuiBox-root MuiBox-root-4"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+      >
+        <div
+          className="MuiPaper-root MuiCard-root makeStyles-card-1 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <div
+            className="MuiCardContent-root"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+                style={
+                  Object {
+                    "margin": "0px 0px",
+                    "padding": "0px 0px",
+                  }
+                }
+              >
+                <img
+                  alt="Event image"
+                  background_repeat="no-repeat"
+                  background_size="cover"
+                  border-radius="200px"
+                  height="480"
+                  src="data:image/png;base64,\\"productInfo.productImage\\""
+                  width="550"
+                />
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+                style={
+                  Object {
+                    "align": "center",
+                    "margin": "0px auto",
+                    "padding": "20px 50px",
+                  }
+                }
+              >
+                <br />
+                <div
+                  className="MuiTypography-root MuiTypography-h3 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+                >
+                  <b>
+                    productInfo.productName
+                  </b>
+                </div>
+                <div
+                  className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom MuiTypography-displayInline"
+                >
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CurrencyRupeeIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13.66 7c-.56-1.18-1.76-2-3.16-2H6V3h12v2h-3.26c.48.58.84 1.26 1.05 2H18v2h-2.02c-.25 2.8-2.61 5-5.48 5h-.73l6.73 7h-2.77L7 14v-2h3.5c1.76 0 3.22-1.3 3.46-3H6V7h7.66z"
+                    />
+                  </svg>
+                  productInfo.price  
+                </div>
+                <div
+                  className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom MuiTypography-displayInline"
+                >
+                  per item
+                </div>
+                <br />
+                <br />
+                <div
+                  className="MuiTypography-root MuiTypography-h6 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+                >
+                  Product Description:
+                </div>
+                <div
+                  className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+                >
+                  productInfo.productDesc
+                </div>
+                <div
+                  className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom"
+                >
+                  <span>
+                    #tag.tag
+                  </span>
+                </div>
+                <br />
+                <br />
+                <div
+                  className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+                >
+                  <span
+                    className="MuiBadge-root"
+                  >
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ShoppingBasketIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m17.21 9-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                      />
+                    </svg>
+                     
+                    <span
+                      className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary"
+                    >
+                      1
+                    </span>
+                  </span>
+                  <div
+                    className="MuiButtonGroup-root"
+                    role="group"
+                  >
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                         
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 13H5v-2h14v2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                         
+                        <svg
+                          aria-hidden={true}
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <button
+                  className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-2 MuiButton-containedPrimary"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                  type="submit"
+                >
+                  <span
+                    className="MuiButton-label"
+                  >
+                    Add to basket
+                          
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ShoppingBasketIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m17.21 9-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;

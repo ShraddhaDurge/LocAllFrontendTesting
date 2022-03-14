@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminHome 1`] = `
+<div
+  className="MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root"
+    style={
+      Object {
+        "backgroundColor": "#E3F2FD",
+        "height": "96vh",
+        "padding": "20px 0px 0px 0px",
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation20 MuiPaper-rounded"
+      style={
+        Object {
+          "height": 520,
+          "margin": "auto",
+          "padding": "0px 20px 0px 20px",
+          "width": 800,
+        }
+      }
+    >
+      <div
+        align="center"
+        className="MuiGrid-root"
+        style={
+          Object {
+            "padding": "30px 10px",
+          }
+        }
+      >
+        <img
+          align="center"
+          alt="logo"
+          height="60"
+          src="logo1.png"
+          width="270"
+        />
+      </div>
+      <div
+        align="center"
+        className="MuiGrid-root"
+        style={
+          Object {
+            "padding": "5px 0px",
+          }
+        }
+      >
+        <h5
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary MuiTypography-alignCenter"
+        >
+          Admin Homepage
+        </h5>
+      </div>
+      <br />
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
+        style={
+          Object {
+            "margin": "20px",
+          }
+        }
+      >
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+          style={
+            Object {
+              "margin": "10px 10px 10px 90px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#009BFF",
+                "height": 50,
+                "margin": "20px",
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "padding": "10px 10px",
+                }
+              }
+            >
+              Vendor Verification
+            </p>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
+          style={
+            Object {
+              "margin": "10px 10px 10px 30px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#009BFF",
+                "height": 50,
+                "margin": "20px",
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "padding": "10px 10px",
+                }
+              }
+            >
+              Support and feedback
+            </p>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+          style={
+            Object {
+              "margin": "130px 0px 0px 280px",
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+            style={
+              Object {
+                "backgroundColor": "#81C784",
+                "height": 50,
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+              onClick={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                  "padding": "10px 10px",
+                }
+              }
+            >
+              Logout
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

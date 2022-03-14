@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerProfile 1`] = `
+<div
+  className="MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root"
+    style={
+      Object {
+        "padding": "10px",
+      }
+    }
+  >
+    <center>
+      <div
+        className="MuiPaper-root MuiPaper-elevation20 MuiPaper-rounded"
+        style={
+          Object {
+            "alignItems": "center",
+            "height": "80vh",
+            "width": "160vh",
+          }
+        }
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#63C6FF",
+              "backgroundImage": "url(15.png)",
+              "backgroundRepeat": "no-repeat",
+              "backgroundSize": "contain",
+              "height": "180px",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root"
+            style={
+              Object {
+                "alignItems": "center",
+                "paddingTop": "50px",
+              }
+            }
+          >
+            <h4
+              className="MuiTypography-root MuiTypography-h4 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+              fontFamily="Segoe UI"
+            >
+              Welcome, @myInfo.username!
+            </h4>
+            <p
+              className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+            >
+              myInfo.email
+              <br />
+              +91myInfo.phoneno
+            </p>
+          </div>
+        </div>
+        <div
+          align="center"
+          className="MuiGrid-root"
+          style={
+            Object {
+              "padding": "25px",
+            }
+          }
+        >
+          <h5
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-colorTextSecondary"
+          >
+            Address Information
+          </h5>
+        </div>
+        <form
+          action="#"
+          onReset={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            class="container"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+                style={
+                  Object {
+                    "paddingLeft": "100px",
+                  }
+                }
+              >
+                <div
+                  className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  onInput={[Function]}
+                >
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+                    data-shrink={false}
+                  >
+                    Billing Address
+                    <span
+                      aria-hidden={true}
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                    onClick={[Function]}
+                  >
+                    <input
+                      aria-invalid={false}
+                      autoFocus={false}
+                      className="MuiInputBase-input MuiInput-input"
+                      disabled={false}
+                      name="billingAddress"
+                      onAnimationStart={[Function]}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <p
+                    className="MuiFormHelperText-root Mui-required"
+                  />
+                </div>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+                style={
+                  Object {
+                    "paddingLeft": "35px",
+                  }
+                }
+              >
+                <div
+                  className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  onInput={[Function]}
+                >
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+                    data-shrink={false}
+                  >
+                    Billing Pincode
+                    <span
+                      aria-hidden={true}
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                    onClick={[Function]}
+                  >
+                    <input
+                      aria-invalid={false}
+                      autoFocus={false}
+                      className="MuiInputBase-input MuiInput-input"
+                      disabled={false}
+                      name="billingPincode"
+                      onAnimationStart={[Function]}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <p
+                    className="MuiFormHelperText-root Mui-required"
+                  />
+                </div>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+                style={
+                  Object {
+                    "paddingLeft": "100px",
+                  }
+                }
+              >
+                <div
+                  className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  onInput={[Function]}
+                >
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+                    data-shrink={false}
+                  >
+                    Shipping Address
+                    <span
+                      aria-hidden={true}
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                    onClick={[Function]}
+                  >
+                    <input
+                      aria-invalid={false}
+                      autoFocus={false}
+                      className="MuiInputBase-input MuiInput-input"
+                      disabled={false}
+                      name="shippingAddress"
+                      onAnimationStart={[Function]}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <p
+                    className="MuiFormHelperText-root Mui-required"
+                  />
+                </div>
+              </div>
+              <div
+                className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+                style={
+                  Object {
+                    "paddingLeft": "35px",
+                  }
+                }
+              >
+                <div
+                  className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                  onInput={[Function]}
+                >
+                  <label
+                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+                    data-shrink={false}
+                  >
+                    Shipping Pincode
+                    <span
+                      aria-hidden={true}
+                      className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                    onClick={[Function]}
+                  >
+                    <input
+                      aria-invalid={false}
+                      autoFocus={false}
+                      className="MuiInputBase-input MuiInput-input"
+                      disabled={false}
+                      name="shippingPincode"
+                      onAnimationStart={[Function]}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <p
+                    className="MuiFormHelperText-root Mui-required"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#5E35B1",
+                "display": "flex",
+                "height": "20%",
+                "justifyContent": "center",
+                "margin": "20px auto",
+                "width": "30%",
+              }
+            }
+            tabIndex={0}
+            type="submit"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Submit
+            </span>
+          </button>
+        </form>
+      </div>
+    </center>
+  </div>
+</div>
+`;
